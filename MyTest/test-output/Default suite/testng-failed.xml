@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IBM.eStrategy.MyTest.TC02_Assert">
+      <class name="com.IBM.eStrategy.createAccountPage.TC002_NewAccount">
         <methods>
-          <include name="TitleAssertion"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="registerNewAccount"/>
         </methods>
-      </class> <!-- com.IBM.eStrategy.MyTest.TC02_Assert -->
+      </class> <!-- com.IBM.eStrategy.createAccountPage.TC002_NewAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

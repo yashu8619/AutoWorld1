@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12735" started-at="2017-12-17T18:32:13Z" finished-at="2017-12-17T18:32:26Z">
+  <suite name="Suite" duration-ms="12970" started-at="2017-12-18T17:35:47Z" finished-at="2017-12-18T17:36:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12735" started-at="2017-12-17T18:32:13Z" finished-at="2017-12-17T18:32:26Z">
+    <test name="Test" duration-ms="12970" started-at="2017-12-18T17:35:47Z" finished-at="2017-12-18T17:36:00Z">
       <class name="com.IBM.eStrategy.MyTest.TC01">
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.IBM.eStrategy.MyTest.TC01@4e04a765]" name="sampleTest" duration-ms="5424" started-at="2017-12-18T00:02:20Z" finished-at="2017-12-18T00:02:26Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.IBM.eStrategy.MyTest.TC01@4e04a765]" name="sampleTest" duration-ms="5440" started-at="2017-12-18T23:05:54Z" finished-at="2017-12-18T23:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
       </class> <!-- com.IBM.eStrategy.MyTest.TC01 -->
       <class name="com.IBM.eStrategy.MyTest.TC02_Assert">
-        <test-method status="FAIL" signature="TitleAssertion()[pri:0, instance:com.IBM.eStrategy.MyTest.TC02_Assert@21bcffb5]" name="TitleAssertion" duration-ms="7280" started-at="2017-12-18T00:02:13Z" finished-at="2017-12-18T00:02:20Z">
+        <test-method status="FAIL" signature="TitleAssertion()[pri:0, instance:com.IBM.eStrategy.MyTest.TC02_Assert@21bcffb5]" name="TitleAssertion" duration-ms="7495" started-at="2017-12-18T23:05:47Z" finished-at="2017-12-18T23:05:54Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [facebook] but found [Facebook – log in or sign up]]]>

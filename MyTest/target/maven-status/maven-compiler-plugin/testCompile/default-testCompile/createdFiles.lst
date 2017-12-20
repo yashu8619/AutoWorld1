@@ -1,2 +1,3 @@
 com\IBM\eStrategy\MyTest\TC02_Assert.class
 com\IBM\eStrategy\MyTest\TC01.class
+com\IBM\eStrategy\MyTest\TC03_lauchBrowser.class

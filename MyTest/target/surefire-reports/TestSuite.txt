@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.771 s <<< FAILURE! - in TestSuite
-TitleAssertion(com.IBM.eStrategy.MyTest.TC02_Assert)  Time elapsed: 7.29 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.258 s <<< FAILURE! - in TestSuite
+TitleAssertion(com.IBM.eStrategy.MyTest.TC02_Assert)  Time elapsed: 7.511 s  <<< FAILURE!
 java.lang.AssertionError: expected [facebook] but found [Facebook – log in or sign up]
 	at com.IBM.eStrategy.MyTest.TC02_Assert.TitleAssertion(TC02_Assert.java:28)
 
