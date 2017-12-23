@@ -148,8 +148,7 @@ public class HomePage {
 		log.info("mobile number is "+mobileNumber.toString());
 		Register.click();
 		log.info("register button clicked");
-	
-	
+		
 	}
 	
 	public boolean verifyLogoutDisplay() {
@@ -167,7 +166,4 @@ public class HomePage {
 	public void clickOnLogour() {		
 		signOut.click();	
 	}
-	
-	
-	
 }

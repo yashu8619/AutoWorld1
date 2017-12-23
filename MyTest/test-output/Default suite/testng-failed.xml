@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IBM.eStrategy.createAccountPage.TC002_NewAccount">
+      <class name="com.IBM.eStrategy.loginPage.TC001_Login_Invalid_Creds">
         <methods>
-          <include name="endTest"/>
           <include name="setUp"/>
-          <include name="registerNewAccount"/>
+          <include name="loginToApplication"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.IBM.eStrategy.createAccountPage.TC002_NewAccount -->
+      </class> <!-- com.IBM.eStrategy.loginPage.TC001_Login_Invalid_Creds -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
