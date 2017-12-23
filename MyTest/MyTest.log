@@ -143,3 +143,16 @@ INFO	2017-12-20 09:49:36,951	18451	com.IBM.eStrategy.testBase.TestBase	[main]	br
 2017-12-20 23:55:24 INFO  TestBase:138 - country selected is [[ChromeDriver: chrome on XP (31dbd0913daba001b0b672930579d1fa)] -> xpath: //select[@id='id_country']]
 2017-12-20 23:55:24 INFO  TestBase:140 - mobile number is [[ChromeDriver: chrome on XP (31dbd0913daba001b0b672930579d1fa)] -> xpath: //input[@id='phone_mobile']]
 2017-12-20 23:55:27 INFO  TestBase:142 - register button clicked
+2017-12-21 00:24:40 INFO  TestBase:107 - signIn button is clicked and the xpath is [[ChromeDriver: chrome on XP (09dfbb2fb501d7253abc1149e8154f11)] -> xpath: //a[@class='login']]
+2017-12-21 00:24:40 INFO  TestBase:110 - email entered is [[ChromeDriver: chrome on XP (09dfbb2fb501d7253abc1149e8154f11)] -> xpath: //input[@id='email_create']]
+2017-12-21 00:24:41 INFO  TestBase:112 - create account button clicked
+2017-12-23 16:49:39 INFO  TestBase:27 - ============= loginToApplication test started =============
+2017-12-23 16:49:49 INFO  TestBase:37 - Browser closed
+2017-12-23 16:50:12 INFO  TestBase:27 - ============= loginToApplication test started =============
+2017-12-23 16:50:15 INFO  TestBase:93 - signIn button is clicked and the xpath is [[ChromeDriver: chrome on XP (5cafb14bb96a7281e7085aa79ebea272)] -> xpath: //a[@class='login']]
+2017-12-23 16:50:15 INFO  TestBase:95 - entered username and the xpath is [[ChromeDriver: chrome on XP (5cafb14bb96a7281e7085aa79ebea272)] -> xpath: //input[@id='email']]
+2017-12-23 16:50:15 INFO  TestBase:97 - entered password and the xpath is [[ChromeDriver: chrome on XP (5cafb14bb96a7281e7085aa79ebea272)] -> xpath: //input[@id='passwd']]
+2017-12-23 16:50:22 INFO  TestBase:37 - Browser closed
+2017-12-23 18:49:14 INFO  TestBase:49 - Browser closed
+2017-12-23 18:49:52 INFO  TestBase:49 - Browser closed
+2017-12-24 00:14:09 INFO  TestBase:54 - Browser closed

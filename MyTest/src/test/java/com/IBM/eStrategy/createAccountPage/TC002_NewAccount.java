@@ -1,9 +1,6 @@
 package com.IBM.eStrategy.createAccountPage;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -27,8 +24,7 @@ public class TC002_NewAccount extends TestBase {
 	String cntry="india";
 	String num="1212121212";
 	String cremail="yash03verma@gmail.com";
-	
-	
+		
 	
 	@BeforeTest
 	public void setUp() {
@@ -42,8 +38,6 @@ public class TC002_NewAccount extends TestBase {
 		home=new HomePage(driver);
 		home.RegisterNewAccount(cremail,fname, lname, email, psw, adr, City, State, zpcode, cntry, num);
 	}
-	
-
 	
 		
 		@AfterTest() 

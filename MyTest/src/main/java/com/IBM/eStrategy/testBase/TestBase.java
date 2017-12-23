@@ -6,7 +6,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import com.IBM.eStrategy.excelReader.Excel_Reader;
+
 
 public class TestBase {
 	
@@ -14,6 +16,7 @@ public class TestBase {
 	public WebDriver driver;
 	String browser="chrome";
 	String url="http://automationpractice.com/index.php";
+	Excel_Reader excel;
 	
 	
 	
@@ -47,4 +50,12 @@ public class TestBase {
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 
 		}
-		}
+		
+		public String[][] getData(String sheetName,String ExcelName) {
+			String path=System.getProperty("user.dir")+"\\src\\main\\java\\com\\IBM\\eStrategy\\data\\"+ExcelName;		
+			excel=new Excel_Reader(path);
+			String[][] data=excel.getDatafromSheet(sheetName, ExcelName);
+			return data;
+		}		
+	}
+		

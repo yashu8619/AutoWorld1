@@ -16,6 +16,9 @@ public class HomePage {
 	@FindBy(xpath="//a[@class='login']")
 	WebElement SignIn;
 	
+	@FindBy(xpath="//a[@title='Log me out']")
+	WebElement signOut;
+	
 	@FindBy(xpath="//input[@id='email']")
 	WebElement username;
 	
@@ -24,7 +27,6 @@ public class HomePage {
 	
 	@FindBy(xpath="//button[@id='SubmitLogin']")
 	WebElement submitButton;
-	
 	//==========================================
 	
 	@FindBy(xpath="//input[@id='email_create']")
@@ -87,18 +89,24 @@ public class HomePage {
 	}
 	
 	
-	public void loginToApplication(String uname,String psw) {
+	public void loginToApplication(String emailAddress,String loginpassword) {
 		
 		SignIn.click();
 		log.info("signIn button is clicked and the xpath is "+SignIn.toString());
-		username.sendKeys(uname);
+		username.sendKeys(emailAddress);
 		log.info("entered username and the xpath is "+username.toString());
-		password.sendKeys(psw);
+		password.sendKeys(loginpassword);
 		log.info("entered password and the xpath is "+password.toString());
 		submitButton.click();
 		log.info("submit button is clicked and the xpath is "+submitButton.toString());
 		
 		
+	}
+	
+	public void loogingOut() {
+		signOut.click();
+		log.info("logged out from the application "+signOut.toString());
+	 
 	}
 	
 	public void RegisterNewAccount(String cremail,String fname,String lname,String email,String psw,String adr,String City,String State,String zpcode,String cntry,String num) {
@@ -143,5 +151,23 @@ public class HomePage {
 	
 	
 	}
+	
+	public boolean verifyLogoutDisplay() {
+		
+		try {
+			signOut.isDisplayed();
+			log.info("logout is displayed and object is "+signOut.toString());
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+		
+	}
+	
+	public void clickOnLogour() {		
+		signOut.click();	
+	}
+	
+	
 	
 }
