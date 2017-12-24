@@ -51,8 +51,9 @@ public class TestBase {
 		 
 		}
 		
-		public String[][] getData(String sheetName,String ExcelName) {
-			String path=System.getProperty("user.dir")+"\\src\\main\\java\\com\\IBM\\eStrategy\\data\\"+ExcelName;		
+		public String[][] getData(String ExcelName,String sheetName) {
+			//String path=System.getProperty("user.dir")+"\\src\\main\\java\\com\\IBM\\eStrategy\\data\\"+ExcelName;	
+			String path="C:\\Users\\IBM_ADMIN\\git\\AutoWorld1\\MyTest\\src\\main\\java\\com\\IBM\\eStrategy\\data\\Data.xlsx";
 			excel=new Excel_Reader(path);
 			String[][] data=excel.getDatafromSheet(sheetName, ExcelName);
 			return data;

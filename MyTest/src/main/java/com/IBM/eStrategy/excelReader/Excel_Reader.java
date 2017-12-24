@@ -19,24 +19,23 @@ public class Excel_Reader {
 	public XSSFRow row;
 	public XSSFCell cell;
 	
-	 public Excel_Reader(String path) {		 
+	public Excel_Reader(String path) {		 
 		 this.path=path;		 
 		 try {
-			 fis=new FileInputStream(path);		
-			 wb=new XSSFWorkbook(fis);			
-		 	} catch (Exception e) {
-		 	  e.printStackTrace();			
-		}		 
+			 	fis=new FileInputStream(path);		
+			 	wb=new XSSFWorkbook(fis);			
+		 	 }  catch (Exception e) {
+		 	 	e.printStackTrace();			
+		 	 }		 
 	 }
 	
 	 @SuppressWarnings("deprecation")
-	public String[][] getDatafromSheet ( String sheetName, String ExcelName) {
-		 String dataset[][]=null;
-		 
-		 
+	 public String[][] getDatafromSheet ( String sheetName, String ExcelName) {
+	 String dataset[][]=null;
+		 		 
 		 // get sheet from excelfile
 		 try {
-			sh= wb.getSheet(sheetName);
+			 sh= wb.getSheet(sheetName);
 			 // count no of rows having data
 			 int totalRow=sh.getLastRowNum()+1;
 			 // count no of columns
@@ -45,11 +44,11 @@ public class Excel_Reader {
 			 dataset=new String[totalRow-1][totalColumn];
 			 
 			 // this for loop will run on rows
-			 for(int i=1;i<totalRow;i++ ) {
+			 for(int i=1;i<totalRow;i++) {
 				 row=sh.getRow(i);
 				 
 				// this for loop will run on columns
-				 for(int j=0;j<totalColumn;j++ ) {
+				 for(int j=0;j<totalColumn;j++) {
 					 cell=row.getCell(j);
 					 
 			    // if the cell is of string type
@@ -65,20 +64,20 @@ public class Excel_Reader {
 			}
 			 
 			 return dataset;
-		} catch (Exception e) {
-			System.out.println("exception in reading xcel file is "+e.getMessage());
-			e.printStackTrace();
+		}    catch (Exception e) {
+			 System.out.println("exception in reading xcel file is "+e.getMessage());
+			 e.printStackTrace();
 		}
 			 
-				return dataset; 		 
+			 return dataset; 		 
 			 
 		 }
 		 			 
 			 @SuppressWarnings("deprecation")
-			public String getCellData( String sheetName, String colName, int rowNum) {
+			 public String getCellData( String sheetName, String colName, int rowNum) {
 				 
 			 try {
-				int col_Num=0;
+				 int col_Num=0;
 				 int index=wb.getSheetIndex(sheetName);
 				 sh=wb.getSheetAt(index);
 				 row=sh.getRow(0);
@@ -92,17 +91,17 @@ public class Excel_Reader {
 				 row=sh.getRow(rowNum-1);
 				 cell=row.getCell(col_Num);
 				 if(cell.getCellType()==cell.CELL_TYPE_STRING) {
-					 return cell.getStringCellValue();
-				 } else if (cell.getCellType()==cell.CELL_TYPE_BLANK) {
-					 return "";
-				 }
-			} catch (Exception e) {				
-				e.printStackTrace();
+				 return cell.getStringCellValue();
+		  }      else if (cell.getCellType()==cell.CELL_TYPE_BLANK) {
+				 return "";
+			 }
+		  }      catch (Exception e) {				
+				 e.printStackTrace();
 			}
 			 
 				return null;	 
 
-			 }		 		 
+			}		 		 
 	 }
 
 

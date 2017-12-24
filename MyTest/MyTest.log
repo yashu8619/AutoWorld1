@@ -156,3 +156,32 @@ INFO	2017-12-20 09:49:36,951	18451	com.IBM.eStrategy.testBase.TestBase	[main]	br
 2017-12-23 18:49:14 INFO  TestBase:49 - Browser closed
 2017-12-23 18:49:52 INFO  TestBase:49 - Browser closed
 2017-12-24 00:14:09 INFO  TestBase:54 - Browser closed
+2017-12-24 10:16:37 INFO  TestBase:54 - Browser closed
+2017-12-24 10:19:04 INFO  TestBase:54 - Browser closed
+2017-12-24 13:49:56 INFO  TestBase:37 - ============= loginToApplication test started =============
+2017-12-24 13:49:59 INFO  TestBase:96 - signIn button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //a[@class='login']]
+2017-12-24 13:49:59 INFO  TestBase:98 - entered username and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='email']]
+2017-12-24 13:49:59 INFO  TestBase:100 - entered password and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='passwd']]
+2017-12-24 13:50:01 INFO  TestBase:102 - submit button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //button[@id='SubmitLogin']]
+2017-12-24 13:50:01 INFO  TestBase:44 - ============ loginToApplication Test finished =============
+2017-12-24 13:50:11 INFO  TestBase:37 - ============= loginToApplication test started =============
+2017-12-24 13:50:14 INFO  TestBase:96 - signIn button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //a[@class='login']]
+2017-12-24 13:50:14 INFO  TestBase:98 - entered username and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='email']]
+2017-12-24 13:50:14 INFO  TestBase:100 - entered password and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='passwd']]
+2017-12-24 13:50:16 INFO  TestBase:102 - submit button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //button[@id='SubmitLogin']]
+2017-12-24 13:50:16 INFO  TestBase:44 - ============ loginToApplication Test finished =============
+2017-12-24 13:50:26 INFO  TestBase:37 - ============= loginToApplication test started =============
+2017-12-24 13:50:29 INFO  TestBase:96 - signIn button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //a[@class='login']]
+2017-12-24 13:50:29 INFO  TestBase:98 - entered username and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='email']]
+2017-12-24 13:50:29 INFO  TestBase:100 - entered password and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='passwd']]
+2017-12-24 13:50:31 INFO  TestBase:102 - submit button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //button[@id='SubmitLogin']]
+2017-12-24 13:50:31 INFO  TestBase:44 - ============ loginToApplication Test finished =============
+2017-12-24 13:50:41 INFO  TestBase:37 - ============= loginToApplication test started =============
+2017-12-24 13:50:44 INFO  TestBase:96 - signIn button is clicked and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //a[@class='login']]
+2017-12-24 13:50:44 INFO  TestBase:98 - entered username and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='email']]
+2017-12-24 13:50:44 INFO  TestBase:100 - entered password and the xpath is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //input[@id='passwd']]
+2017-12-24 13:50:57 INFO  TestBase:102 - submit button is clicked and the xpath is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2017-12-24 13:50:57 INFO  TestBase:44 - ============ loginToApplication Test finished =============
+2017-12-24 13:50:57 INFO  TestBase:159 - logout is displayed and object is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //a[@title='Log me out']]
+2017-12-24 13:50:58 INFO  TestBase:159 - logout is displayed and object is [[ChromeDriver: chrome on XP (ebf2e1693bfebb60412f79e84f0b92a6)] -> xpath: //a[@title='Log me out']]
+2017-12-24 13:50:58 INFO  TestBase:54 - Browser closed
